@@ -1,4 +1,4 @@
-package main.design.patterns.factory;
+package main.design.patterns.creational.factory;
 
 public class Point {
   private double x, y;

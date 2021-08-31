@@ -1,4 +1,4 @@
-package main.design.patterns.prototype;
+package main.design.patterns.creational.prototype;
 
 public class Main {
 

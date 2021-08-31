@@ -1,26 +1,19 @@
 Builder:
     When piecewise object construction is complicated, provide an API for doing it succinctly.
-
     - A builder is a separate component for building an object
     - Can either give builder a constructor or return it via a static function
     - Different facets of an object can be built with different builders working in tandem
       via a base class
 
-
 Factory:
     A component responsible solely for the wholesale (not piecewise) creation of objects
-
 
 Prototype:
     A partially or fully initialized object that you copy, clone and make use of it
 
-
 Singleton
     A component which is instantiated only once
-
     - Making a 'safe' singleton is easy: construct a static Lazy<T> and return its value
     - Singletons are difficult to test
     - Instead of directly using a singleton, consider depending on an abstraction (DIP)
     - Consider defining singleton lifetime in DI container
-
-

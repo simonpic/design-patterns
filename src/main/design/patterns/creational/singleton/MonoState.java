@@ -1,4 +1,4 @@
-package main.design.patterns.singleton;
+package main.design.patterns.creational.singleton;
 
 public class MonoState {
   private static String name;
