@@ -1,2 +1,15 @@
 Adapter:
     A construct that adapts an existing interface X to conform to the required interface Y.
+
+Bridge:
+    A mechanism that decouples an interface (hierarchy) from an implementation (hierarchy).
+    - decouple abstraction form implementation
+    - both can exist as hierarchy
+    - a stronger form of encapsulation
+
+Composite:
+    A mechanism for treating individual (scalar) objects and compositions objects in a
+    uniform manner.
+    - Objects can use other objects via inheritance/composition
+    - Some composed and singular objects need similar/identical behaviors
+    - Composite design pattern let us treat both type of objects uniformly
